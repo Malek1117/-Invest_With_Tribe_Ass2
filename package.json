@@ -1,0 +1,24 @@
+{
+  "name": "-invest_with_tribe_ass2",
+  "version": "1.0.0",
+  "description": "Static Sign up page with Node, Mongo, express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malek1117/-Invest_With_Tribe_Ass2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malek1117/-Invest_With_Tribe_Ass2/issues"
+  },
+  "homepage": "https://github.com/Malek1117/-Invest_With_Tribe_Ass2#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  }
+}
