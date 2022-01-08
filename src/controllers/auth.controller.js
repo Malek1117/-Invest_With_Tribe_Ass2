@@ -20,7 +20,9 @@ const signup = async (req, res) => {
         if(!user) return res.status(500).send({status: "failed", message: "Something went wrong. Please try again after some time."});
 
         const token = newToken(user);
-        return res.status(201).json({user, token});
+        res.status(201).send({Status: "ok", message: "Successfully Sign Up", token});
+
+        return redirect("/")
     } catch(e){
         if(!user) return res.status(500).send({status: 'failed', message: "Something went wrong. Please try again after some time."});
     }
